@@ -2,10 +2,10 @@ public class CargoVan {
     public String brand;
     public String model;
     public int vehicle_value;
-    public String driver_experience;
+    public int driver_experience;
     public int rental_period;
 
-    public CargoVan(String brand, String model, int vehicle_value, String driver_experience,
+    public CargoVan(String brand, String model, int vehicle_value, int driver_experience,
                       int rental_period){
         this.brand = brand;
         this.model = model;
@@ -26,7 +26,7 @@ public class CargoVan {
         return vehicle_value;
     }
 
-    public String getDriver_experience() {
+    public int getDriver_experience() {
         return driver_experience;
     }
 
